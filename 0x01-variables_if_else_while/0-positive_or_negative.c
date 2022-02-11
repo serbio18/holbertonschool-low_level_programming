@@ -6,6 +6,7 @@
  * main - prints random number positive, negative or zero
  * Rerturn: Always 0
 */
+
 int main(void)
 {
 	int n;
