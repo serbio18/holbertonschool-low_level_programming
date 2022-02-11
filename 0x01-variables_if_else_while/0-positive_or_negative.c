@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there 
- * main - prints random number positive, negative or zerio*/
-/* betty style doc for function main goes there */
+/** 
+ * main - prints random number positive, negative or zerio
+ * Rerturn: Always 0
+*/
 int main(void)
 {
 	int n;
