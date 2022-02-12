@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *  * main - prints the alphabet in lowercase,
- *   * followed by a new line
- *    * Return: Always 0 (Success)
- *     */
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char ch;
@@ -14,7 +14,8 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	for(dh = 'A' ; dh <= 'Z' ; dh++) {
+	for (dh = 'A' ; dh <= 'Z' ; dh++)
+       	{
 		putchar(dh);
 	}
 		putchar('\n');
