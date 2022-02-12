@@ -25,8 +25,9 @@ int main(void)
 	else if(l< 6 && l !=0)
        	{
         printf(" %d and is less than 6 and not 0", l);
+	}
 	else
-	printf(" %d and is 0");
+	printf(" %d and is 0", l);
        
        	return 0;
 }
