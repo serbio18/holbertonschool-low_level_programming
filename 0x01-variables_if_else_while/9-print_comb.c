@@ -10,8 +10,15 @@ int main(void)
 
 	while (ch < 10)
 	{
+	if(ch == 9)
+	{
+	printf("%d", ch);
+	}
+	else if(ch != 9)
+	{
 	printf("%d, ", ch);
 	ch++;
+	}
 	}
 	printf("\n");
 	return (0);
