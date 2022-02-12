@@ -12,10 +12,10 @@ int main(void)
 
 	while (ch < 10)
 	{
-	putchar(ch+'0');
+	putchar(ch + '0');
 	ch++;
 	}
-	while(dh <= 'f')
+	while (dh <= 'f')
 	{
 	putchar(dh);
 	dh++;
