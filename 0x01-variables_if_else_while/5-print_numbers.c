@@ -7,13 +7,13 @@
  *     */
 int main(void)
 {
-	char ch = 0;
+	int ch = 0;
 
-	while (ch <= 10)
+	while (ch < 10)
 	{
-		putchar(ch);
-		ch++;
+	printf("%d", ch);
+	ch++;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
