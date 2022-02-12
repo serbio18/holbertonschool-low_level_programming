@@ -17,8 +17,8 @@ int main(void)
 	else if(ch != 9)
 	{
 	printf("%d, ", ch);
-	ch++;
 	}
+	ch++;
 	}
 	printf("\n");
 	return (0);
