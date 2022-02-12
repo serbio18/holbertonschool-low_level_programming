@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *  * main - prints random number: positive, negative or zero
- *   * Rerturns: Always 0
- *    */
+ * main - prints random number: positive, negative or zero
+ * Rerturns: Always 0
+ */
 int main(void)
 {
        	char ch;
