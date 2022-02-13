@@ -4,7 +4,7 @@
 
 /**
  * main - prints random number: positive, negative or zero
- * Rerturns: Always 0
+ * Rerturn: Always 0
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 	printf("Last digit of ");
 	printf("%d ", n);
 	printf("is");
-	l = (n%10);
+	l = (n % 10);
 	if(l > 5)
         {
 	printf(" %d and is greater than 5\n", l);
