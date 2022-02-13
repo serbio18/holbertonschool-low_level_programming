@@ -10,11 +10,11 @@ int main(void)
 
 	while (ch < 10)
 	{
-	if(ch == 9)
+	if (ch == 9)
 	{
 	printf("%d", ch);
 	}
-	else if(ch != 9)
+	else if (ch != 9)
 	{
 	printf("%d, ", ch);
 	}
