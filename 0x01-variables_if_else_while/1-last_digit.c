@@ -17,13 +17,11 @@ int main(void)
 	printf("%d ", n);
 	printf("is");
 	l = (n % 10);
-<<<<<<< HEAD
+
 	if(l > 5)
         {
-=======
 	if (l > 5)
 	{
->>>>>>> 6411ecd300f8abcb591bee3befc3bbe705144bb2
 	printf(" %d and is greater than 5\n", l);
 	}
 	else if (l < 6 && l != 0)
@@ -33,4 +31,5 @@ int main(void)
 	else
 	printf(" %d and is 0\n", l);
 	return (0);
+	}
 }
