@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line, except q and e
- * Return: Aways 0 or 1 (Sucess)
+ * _abs - computes the absolute value of an integer.
+ * @n: an integer
+ * Return: the absolute number
  */
 int _abs(int n)
 {
