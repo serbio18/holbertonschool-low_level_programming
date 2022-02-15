@@ -11,8 +11,8 @@ void print_alphabet_x10(void)
 	char ch;
 	int count = 1;
 
-	while ( count < 11)
-	{	
+	while( count < 11)
+	{
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
 	_putchar(ch);
