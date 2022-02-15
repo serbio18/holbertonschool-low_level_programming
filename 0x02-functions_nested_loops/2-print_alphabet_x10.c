@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints random number: positive, negative or zero
+ * print_alphabet_x10 - prints random number: positive, negative or zero
+ * @void
  * Return: Always 0
  */
 void print_alphabet_x10(void)
