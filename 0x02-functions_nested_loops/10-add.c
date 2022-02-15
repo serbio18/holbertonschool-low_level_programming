@@ -3,9 +3,10 @@
 #include <ctype.h>
 
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line, except q and e
- * Return: Aways 0 or 1 (Sucess)
+ * add - a function that adds two integers and returns the result.
+ * @n: first integer
+ * @m: second integer
+ * Return: r (Sucess)
  */
 int add(int n, int m)
 {	
