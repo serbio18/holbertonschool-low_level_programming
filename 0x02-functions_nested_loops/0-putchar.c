@@ -6,11 +6,11 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{	
+{
 	char arr[] = "_putchar";
 	int y = 0;
 
-	while(arr[y] != '\0')
+	while (arr[y] != '\0')
 	{
 	_putchar(arr[y]);
 	y++;
