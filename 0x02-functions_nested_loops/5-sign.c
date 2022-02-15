@@ -3,8 +3,8 @@
 #include <ctype.h>
 
 /**
- * print_sign - prints the alphabet in lowercase,
- * followed by a new line, except q and e
+ * print_sign - a function that prints the sign of a number.
+ * @n: a number
  * Return: Aways 0 or 1 or -1 (Sucess)
  */
 int print_sign(int n)
