@@ -6,7 +6,7 @@
  * add - a function that adds two integers and returns the result.
  * @n: first integer
  * @m: second integer
- * Return: r
+ * Return: sum of integers n and m
  */
 int add(int n, int m)
 {	
