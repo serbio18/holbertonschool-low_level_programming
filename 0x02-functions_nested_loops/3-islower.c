@@ -3,9 +3,9 @@
 #include <ctype.h>
 
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line, except q and e
- * Return: Aways 0 or 1 (Sucess)
+ * _islower - checks for lowercase character.
+ * @c: The character to be checked
+ * Return: Always 0 or 1 (Sucess)
  */
 int _islower(int c)
 {
