@@ -9,32 +9,29 @@
  * Return: Nothing
  */
 void times_table(void)
-{	
-	int a = 0;
-	int b = 1;
-	int c = 0;
+{
+	int x = 0;
+	int z = 0;
+	int y;
 
-	while ( a <= 9)
+	while (x <= 9)
 	{
-		_putchar('0');
-		while ( b <= 9)
+		putchar('0');
+		for(y = 0 ; y <= 9; y++)
 		{
-			_putchar(',');
-			_putchar(' ');
+		putchar(',');
+		putchar(' ');
 
-			c = a * b;
-			if(c <= 9)
-			{
-				_putchar(' ');
-			}
-			else
-			{
-				_putchar((c / 10) + '0');
-				_putchar((c % 10) + '0');
-			}
-			b++;
+		z = x * y;
+
+		if (z < 10)
+		putchar(' ');
+		else
+		putchar((z / 10) + '0');
+		putchar((z % 10) + '0');
+
 		}
-		a++;
-		_putchar('n');
+		putchar('\n');
+		x++;
 	}
 }
