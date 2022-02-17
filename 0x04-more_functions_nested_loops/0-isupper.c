@@ -3,14 +3,14 @@
 #include <ctype.h>
 
 /**
- * print_remaining_days - takes a date and prints how many days are
- * left in the year, taking leap years into account
- * @month: month in number format
+ * _isupper -  a function that checks for uppercase character.
+ * @c: a character
+ * Return: 1 or 0
  */
 int _isupper(int c)
 {
-	if(isupper(c))
-		return(1);
+	if (isupper(c))
+		return (1);
 	else
-		return(0);
+		return (0);
 }
