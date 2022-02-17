@@ -8,11 +8,11 @@
  * Return: 1 or 0
  */
 
-int _isdigit(int c);
+int _isdigit(int c)
 {
-	if(isdigit(c))
+	if (isdigit(c))
 		return (1);
-	else 
+	else
 		return (0);
 }
 
