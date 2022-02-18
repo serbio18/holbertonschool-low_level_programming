@@ -6,8 +6,6 @@
  * print_diagonal - function that draws a diagonal line on the terminal.
  * followed by a new line.
  * @n:number of times the character \ should be printed
- * @i:variable to increase number of spaces
- * @j:number of times the spaces should be printed
  * Return: void
  */
 
