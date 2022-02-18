@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * print_square - function that draws a diagonal line on the terminal.
+ * print_square - function that  prints a square, followed by a new line..
  * followed by a new line.
  * @size:number of times the character \ should be printed
  * @i:variable to increase number of spaces
@@ -19,7 +19,7 @@ void print_square(int size)
 	{
 		_putchar('\n');
 	}
-	if (size > 0)
+	else
 	{
 		for (i = 0; i < size; i++)
 		{
