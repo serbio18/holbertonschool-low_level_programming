@@ -8,7 +8,9 @@
  * @n:number of times the character \ should be printed
  * @i:variable to increase number of spaces
  * @j:number of times the spaces should be printed
+ * Return: void
  */
+
 void print_diagonal(int n)
 {
 	int i, j;
@@ -27,6 +29,6 @@ void print_diagonal(int n)
 			}
 			_putchar('\\');
 			_putchar('\n');
-			}
 		}
+	}
 }
