@@ -13,6 +13,8 @@ int main(void)
 
 	for (i = 1; i <= size; i++)
 	{
+		if ( i % 15 == 0)
+			printf(" FizzBuzz ");
 		if ( i % 3 == 0)
 			printf(" Fizz ");
 		else if ( i % 5 == 0)
