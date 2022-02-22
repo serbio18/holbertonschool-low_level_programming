@@ -12,8 +12,8 @@ void print_array(int *a, int n)
 {
 	/*int ar[] = a;*/
 	int i = 0;
-	
-	if( n > 0)
+
+	if (n > 0)
 	{
 	while (i < n - 1)
 	{
