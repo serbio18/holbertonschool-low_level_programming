@@ -17,11 +17,11 @@ void puts_half(char *str)
 		l++;
 	}
 
-	l-=1;
+	l -= 1;
 
-	if( n % 2 ==  0)
+	if (n % 2 ==  0)
 		n = l / 2;
-	else 
+	else
 		n = l - 1 / 2;
 
 	i = n + 1;
@@ -29,7 +29,7 @@ void puts_half(char *str)
 	while (i <= l)
 	{
 		_putchar(str[i]);
-		i ++;
+		i++;
 	}
 	_putchar('\n');
 }
