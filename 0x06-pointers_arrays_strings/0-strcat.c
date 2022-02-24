@@ -10,23 +10,23 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int length, j;
-
   /* store length of s1 in the length variable*/
-  length = 0;
-  while (dest[length] != '\0') {
-    ++length;
+  int l1 = 0;
+  int l2= 0;
+  int j;
+
+  while (dest[l1] != '\0') 
+  {
+	  l1++;
+  }
+  while (src[l2] != '\0')
+  {
+	  l2++;
   }
 
   /* concatenate s2 to s1*/
-  for (j = 0; src[j] != '\0'; ++j, ++length) {
-    dest[length] = src[j];
+  for (j = 0; j <= l2; j++) {
+    dest[l1] = src[j];
   }
-
-  
-
-  puts(dest);
-
-
-	return(0);
+  return (dest);
 }
