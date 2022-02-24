@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * *_strcat - a function that that concatenates two strings
+ * *_strncat - a function that that concatenates two strings
  * but with a limit of n bytes
  * @dest: the destination array
  * @src: the source array
