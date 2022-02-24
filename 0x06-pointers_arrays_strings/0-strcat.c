@@ -23,8 +23,7 @@ char *_strcat(char *dest, char *src)
     dest[length] = src[j];
   }
 
-  /* terminating the s1 string*/
-  dest[length] = '\0';
+  
 
   puts(dest);
 
