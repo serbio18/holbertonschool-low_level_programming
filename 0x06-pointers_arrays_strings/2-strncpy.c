@@ -16,7 +16,7 @@ char *_strncpy(char *dest, char *src, int n)
 	int  l2 = 0;
 	int j;
 
-	printf("%d\n%d\n", l1, l2);
+	/*printf("%d\n%d\n", l1, l2);*/
 
 	while (src[l2] != '\0')
 	{
