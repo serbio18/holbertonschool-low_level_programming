@@ -22,7 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 			l2++;
 	}
-	for (j = 0; j <= n && j <= l2; j++)
+	for (j = 0; j < n && j <= l2; j++)
 	{
 		dest[l1] = src[j];
 		l1++;
